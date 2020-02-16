@@ -1,6 +1,6 @@
 #!/bin/bash
 cd ${WORK_DIR}
-git pull origin master：master --tags -f
+git fetch origin --tags
 git reset --hard ${VERSION_TAG}
 gclient sync --force --nohooks --with_branch_heads
 gclient runhooks
