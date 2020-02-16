@@ -1,0 +1,19 @@
+# Build arguments go here.
+target_os = "android"
+is_debug = false
+is_java_debug = false
+dcheck_always_on = false
+android_channel = "stable"
+is_clang = true
+is_official_build = true
+is_chrome_branded = false
+use_official_google_api_keys = false
+ffmpeg_branding = "Chrome"
+proprietary_codecs = true
+enable_resource_whitelist_generation = false
+enable_remoting = true
+is_component_build = false
+enable_nacl = false
+symbol_level = 0
+blink_symbol_level = 0
+# See "gn args <out_dir> --list" for available build arguments.
